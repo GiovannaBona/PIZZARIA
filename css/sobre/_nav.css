@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    
+}
+
+ul, li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+.image__logo {
+    width: 130px;
+    height: 130px;
+}
+
+@media (max-width: 600px){
+    .lista__menu {
+        display: none;
+    }
+}

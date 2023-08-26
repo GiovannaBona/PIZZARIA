@@ -1,0 +1,22 @@
+.card {
+    width: 230px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 16px;
+}
+.card__vermelho {
+    background-color: #ff6a6a9f;
+}
+.card__laranja {
+    background-color: #ffa941e5;
+}
+.card__verde {
+    background-color: #6aff729f;
+}
+.card__azul {
+    background-color: #6ac3ff9f;
+}
